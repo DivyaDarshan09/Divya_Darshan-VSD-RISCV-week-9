@@ -12,7 +12,7 @@
 2. **Technology Node:** SkyWater SKY130
 3. **Implementation Flow:** RTL → Synthesis → Floorplan → Placement → CTS → Routing → SPEF → Post Route STA → DRC & LVS → GDSII
 
-```
+---
 ## Toolchain Used
 
 | Tool |
@@ -23,8 +23,6 @@
 | **KLayout** |
 | **OpenSTA** |
 | **SkyWater SKY130 PDK** |
-
-```
 
 
 ---
