@@ -13,16 +13,16 @@
 3. **Implementation Flow:** RTL → Synthesis → Floorplan → Placement → CTS → Routing → SPEF → Post Route STA → DRC & LVS → GDSII
 
 ```
-┌───────────────────────────────┐
+┌───────────────────────────┐
 │        Toolchain Used         │
-├───────────────────────────────┤                   
+├───────────────────────────┤                   
 │ • Yosys                       │
 │ • OpenROAD                    │
 │ • Magic                       │                  
 │ • KLayout                     │
 │ • OpenSTA                     │
 │ • SkyWater SKY130 PDK         │
-└───────────────────────────────┘
+└───────────────────────────┘
 ```
 
 
