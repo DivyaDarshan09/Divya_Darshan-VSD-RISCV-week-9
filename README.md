@@ -31,7 +31,7 @@
 
 - [0 - Definition](0-Definition.md)
 - [1.1 – Synthesis](1.1_Synthesis.md)
-- [1.2 – Synthesis](1.2_Post_Synthesis_GLS.md)
+- [1.2 – Post Synthesis GLS](1.2_Post_Synthesis_GLS.md)
 - [2 – Pre Route STA](2_Pre_Route_STA.md)
 - [3 – Floorplan](3_Floorplan.md)
 - [4 – Placement](4_Placement.md)
