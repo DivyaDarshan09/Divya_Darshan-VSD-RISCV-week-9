@@ -12,20 +12,24 @@
 2. **Technology Node:** SkyWater SKY130
 3. **Implementation Flow:** RTL → Synthesis → Floorplan → Placement → CTS → Routing → SPEF → Post Route STA → DRC & LVS → GDSII
 
-┌───────────────────────────────────────────┐
-│        <span style="color:#1E90FF;">🧰 Toolchain Used</span>        │
-├───────────────────────────────────────────┤
-│ • <span style="color:#5D3FD3;">🧮 Yosys</span>                      │
-│ • <span style="color:#008080;">🏗️ OpenROAD</span>                 │
-│ • <span style="color:#E67E22;">🎨 Magic</span>                     │
-│ • <span style="color:#D68910;">⏱️ OpenSTA</span>                   │
-│ • <span style="color:#3498DB;">🧊 SkyWater SKY130 PDK</span>       │
-└───────────────────────────────────────────┘
+```
+┌───────────────────────────────┐
+│        Toolchain Used         │
+├───────────────────────────────┤                   
+│ • Yosys                       │
+│ • OpenROAD                    │
+│ • Magic                       │                  
+│ • KLayout                     │
+│ • OpenSTA                     │
+│ • SkyWater SKY130 PDK         │
+└───────────────────────────────┘
+```
+
 
 ---
 # 📚 Table of Contents
 
-- [Definition](Definition.md)
+- [0 - Definition](0-Definition.md)
 - [1.1 – Synthesis](1.1_Synthesis.md)
 - [1.2 – Synthesis](1.2_Post_Synthesis_GLS.md)
 - [2 – Pre Route STA](2_Pre_Route_STA.md)
